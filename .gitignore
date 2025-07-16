@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# dotenv files
+*.env
+backend/.env
+frontend/.env
+
+# build output
+dist/
+build/
+
+# logs
+logs/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# optional: lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
